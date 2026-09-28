@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.liked {
+  color: red;
+}
+
+.not-liked {
+  color: gray;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #ff7e5f;
+  color: white;
+}
